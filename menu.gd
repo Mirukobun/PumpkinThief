@@ -14,7 +14,10 @@ func _ready() -> void:
 	result.hide()
 
 	if Global.played:
-		title.text = "Time's up!"
+		if Global.lose:
+			title.text = "You lose!"
+		else:
+			title.text = "You win!"
 		result.text = "Score: " + str(Global.last_score)
 		result.show()
 		start_button.text = "Try again"

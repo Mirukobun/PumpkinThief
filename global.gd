@@ -1,12 +1,12 @@
 extends Node
 
 const SAVE_PATH := "user://save.cfg"
-
+const WIN_SCORE := 4
 var highscore: int = 0
 var last_score: int = 0
 var played: bool = false
 var new_highscore: bool = false
-
+var lose: bool = false
 
 func _ready() -> void:
 	var file := ConfigFile.new()
@@ -17,6 +17,7 @@ func _ready() -> void:
 func finish_round(score: int) -> void:
 	played = true
 	last_score = score
+	lose = score < WIN_SCORE
 	new_highscore = score > highscore
 	if new_highscore:
 		highscore = score

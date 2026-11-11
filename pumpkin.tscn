@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://l3no7ydfv13h"]
 
-[ext_resource type="Script" path="res://pumpkin.gd" id="1_script"]
 [ext_resource type="Texture2D" uid="uid://oqdhjb37hw26" path="res://assets/world_tileset.png" id="1_fy8b1"]
+[ext_resource type="Script" uid="uid://dv3errua757ix" path="res://pumpkin.gd" id="1_script"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_lfxu0"]
 radius = 26.907248

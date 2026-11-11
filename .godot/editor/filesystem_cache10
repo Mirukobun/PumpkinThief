@@ -1,5 +1,5 @@
 78098b89c88a74ebe8c20117b8754620
-::res://::1794404536
+::res://::1794426196
 boyo.tscn::PackedScene::1386916220854571770::1794341999::0::1::::<><><>0<>0<><>::uid://cl2xwi5ge40ou::::res://points.gd<>uid://c44qs4nw0pm4c::::res://assets/knight.png
 global.gd::GDScript::5508620176100076635::1794341999::0::1::::<>Node<><>0<>0<><>::
 icon.svg::CompressedTexture2D::4776734426962926520::1794228503::1794228507::1::::<><><>0<>0<>77e9785b0feeef61473032e42aa4a3e2<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
@@ -10,6 +10,6 @@ points.gd::GDScript::5602093091873769404::1794341999::0::1::::<>CharacterBody2D<
 points.tscn::PackedScene::8403495656236916471::1794341999::0::1::::<><><>0<>0<><>::res://level.gd<>uid://t03kprax72gs::::res://boyo.tscn<>uid://l3no7ydfv13h::::res://pumpkin.tscn
 pumpkin.gd::GDScript::8691304494896125975::1794341999::0::1::::<>Area2D<><>0<>0<><>::
 pumpkin.tscn::PackedScene::830695897119017471::1794341999::0::1::::<><><>0<>0<><>::res://pumpkin.gd<>uid://oqdhjb37hw26::::res://assets/world_tileset.png
-::res://assets/::1794253633
+::res://assets/::1794423790
 knight.png::CompressedTexture2D::6869189948224630036::1794253629::1794253633::1::::<><><>0<>0<>9bb5e6efc7f8ebf373d14a1a22c73aa7<>res://.godot/imported/knight.png-b33800fb7ddfd7bcabc4517f1e9e68e8.ctex::
 world_tileset.png::CompressedTexture2D::1015868982103255301::1794253629::1794253633::1::::<><><>0<>0<>7ba4cb94cd3f21e8ae1c207c45373c0a<>res://.godot/imported/world_tileset.png-43b294f106264424c84ae223dbce0789.ctex::
