@@ -1,9 +1,0 @@
-[gd_scene format=3 uid="uid://drv4oljbg73qy"]
-
-[ext_resource type="PackedScene" uid="uid://dkojvh71ak3ko" path="res://scenes/knight.tscn" id="1_q386w"]
-
-[node name="Node2D" type="Node2D" unique_id=507945718]
-
-[node name="CharacterBody2D" type="CharacterBody2D" parent="." unique_id=1822295541]
-
-[node name="Node2D" parent="CharacterBody2D" unique_id=1582424656 instance=ExtResource("1_q386w")]

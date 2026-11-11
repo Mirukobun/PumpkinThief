@@ -1,0 +1,20 @@
+[gd_scene format=3 uid="uid://t03kprax72gs"]
+
+[ext_resource type="Script" uid="uid://cl2xwi5ge40ou" path="res://points.gd" id="1_script"]
+[ext_resource type="Texture2D" uid="uid://c44qs4nw0pm4c" path="res://assets/knight.png" id="1_5splg"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_lfxu0"]
+radius = 33.01515
+
+[node name="boyo" type="CharacterBody2D" unique_id=74903693 groups=["player"]]
+z_index = 1
+script = ExtResource("1_script")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1633688694]
+scale = Vector2(2.8125, 2.8125)
+texture = ExtResource("1_5splg")
+region_enabled = true
+region_rect = Rect2(8, 8, 16, 24)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=504713131]
+shape = SubResource("CircleShape2D_lfxu0")
